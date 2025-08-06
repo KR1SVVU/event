@@ -28,7 +28,7 @@ BEGIN:VEVENT
 DTSTAMP:20250806T010146Z
 DTSTART;TZID=America/Los_Angeles:20250822T130000
 DTEND;TZID=America/Los_Angeles:20250822T150000
-SUMMARY:ModuRack MagicSloar Webinar
+SUMMARY:ModuRack MagicSolar Webinar
 UID:20250806T010146Z-88291082021@fe80:0:0:0:8cf4:c4ff:fead:4487eth0
 TZID:America/Los_Angeles
 DESCRIPTION:Modu Rack邀请你参加已安排的Zoom会议。\n加入Zoom会议\nhttps://us06web.zoom.us/
@@ -50,3 +50,4 @@ DESCRIPTION:Reminder
 END:VALARM
 END:VEVENT
 END:VCALENDAR
+
