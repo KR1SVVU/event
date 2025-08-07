@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zoom0.20250822T020000Z@zoom.us
+SUMMARY:ModuRack & MagicSolar – Global Launch Webinar
+DTSTAMP:20250410T142247Z
+DTSTART;TZID=America/Los_Angeles:20250821T190000
+DTEND;TZID=America/Los_Angeles:20250821T200000
+ORGANIZER;CN=Zoom:MAILTO:no-reply@zoom.us
+LOCATION:https://us06web.zoom.us/j/88291082021
+DESCRIPTION:ModuRack & MagicSolar – Global Launch Webinar\\n\\nJoin Zoom Meeting\\nhttps://us06web.zoom.us/j/88291082021\\n\\nMeeting ID: 882 9108 2021\\nInternational numbers: https://us06web.zoom.us/u/kek3iqS3yX\\n\\n---\\nIf joining from a desktop or laptop, you can also download the Zoom desktop client at https://zoom.us/download.\\n\\nThis invitation was generated automatically by Zoom. For technical support, please visit https://support.zoom.us.\\n\\n(Please do not edit this field) Recurrence: None
+SEQUENCE:0
+PRIORITY:5
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
